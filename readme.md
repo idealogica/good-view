@@ -2,7 +2,7 @@
 
 ## 1. What is GoodView?
 
-It is a simple view implementation. By default GoodView uses PHP as template engine but it can be adapted to use any. 
+It is a simple MVC view implementation. By default GoodView uses PHP as template engine but it can be adapted to use any. 
 It supports PSR-7 stream rendering so it can be easily used in HTTP middleware. 
 GoodView supports nested views and layout views.
 
@@ -38,3 +38,7 @@ templates/layout.phtml:
 <?php $this->setLayout('layout') ?>
 <?= $this->e($content); ?>
 ```
+
+## 4. License
+
+InDI is licensed under a [MIT License](https://opensource.org/licenses/MIT).
