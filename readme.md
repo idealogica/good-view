@@ -1,4 +1,4 @@
-# GoodView - Extremely simple and standard compliant view implementation of MVC pattern.
+# GoodView - Extremely simple and standard compliant view implementation of MVC pattern
 
 ## 1. What is GoodView?
 
@@ -8,7 +8,7 @@ so it can be easily used in HTTP middleware. GoodView supports nested view and l
 ## 2. Installation
 
 ```
-composer require idealogica/indi:~1.0.0
+composer require idealogica/good-view:~1.0.0
 ```
 
 ## 3. Basic example
