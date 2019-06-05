@@ -41,4 +41,4 @@ templates/layout.phtml:
 
 ## 4. License
 
-InDI is licensed under a [MIT License](https://opensource.org/licenses/MIT).
+GoodView is licensed under a [MIT License](https://opensource.org/licenses/MIT).
