@@ -2,8 +2,9 @@
 
 ## 1. What is GoodView?
 
-By default GoodView uses PHP as template engine but it can be adapted to use any. It supports PSR-7 stream rendering 
-so it can be easily used in HTTP middleware. GoodView supports nested view and layout views. Short example:
+It is a simple view implementation. By default GoodView uses PHP as template engine but it can be adapted to use any. 
+It supports PSR-7 stream rendering so it can be easily used in HTTP middleware. 
+GoodView supports nested view and layout views.
 
 ## 2. Installation
 
