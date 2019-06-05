@@ -4,7 +4,7 @@
 
 It is a simple view implementation. By default GoodView uses PHP as template engine but it can be adapted to use any. 
 It supports PSR-7 stream rendering so it can be easily used in HTTP middleware. 
-GoodView supports nested view and layout views.
+GoodView supports nested views and layout views.
 
 ## 2. Installation
 
@@ -23,4 +23,18 @@ $viewFactory = ViewFactory::createStreamViewFactory(
 $view = $viewFactory->create('test');
 $stream = $view->render(); // StreamInterface instance
 $contents = $stream->getContents(); // rendered string
+```
+
+templates/test.phtml:
+
+```
+<?php $this->setLayout('layout') ?>
+<?= $this->e($content); ?>
+```
+
+templates/layout.phtml:
+
+```
+<?php $this->setLayout('layout') ?>
+<?= $this->e($content); ?>
 ```
