@@ -35,8 +35,7 @@ templates/test.phtml:
 templates/layout.phtml:
 
 ```
-<?php $this->setLayout('layout') ?>
-<?= $this->e($content); ?>
+!<?= trim($content) ?>!
 ```
 
 ## 4. License
