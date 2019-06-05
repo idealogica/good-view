@@ -1,6 +1,6 @@
 {
     "name": "idealogica/good-view",
-    "description": "Extremely simple and standard compliant view implementation of MVC pattern.",
+    "description": "Extremely simple and standard compliant view implementation of MVC pattern",
     "keywords": ["view", "renderer", "native", "php7", "php", "psr"],
     "type": "library",
     "homepage": "https://github.com/idealogica/good-view",
