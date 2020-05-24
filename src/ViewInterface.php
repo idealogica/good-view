@@ -86,6 +86,13 @@ interface ViewInterface
     public function e(string $string, int $flags = ENT_COMPAT): string;
 
     /**
+     * @param mixed $string
+     *
+     * @return string
+     */
+    public function escapeJsValue($string): string;
+
+    /**
      * @param array $params
      *
      * @return string|StreamInterface

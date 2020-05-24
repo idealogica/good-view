@@ -172,11 +172,11 @@ abstract class AbstractView implements ViewInterface
     /**
      * @param mixed $string
      *
-     * @return false|string
+     * @return string
      */
-    public function escapeJsValue($string)
+    public function escapeJsValue($string): string
     {
-        return json_encode($string, JSON_HEX_TAG);
+        return json_encode($string, JSON_HEX_TAG) ?: '';
     }
 
     /**
