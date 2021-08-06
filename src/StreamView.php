@@ -19,9 +19,9 @@ class StreamView extends StringView
     /**
      * StreamView constructor.
      *
-     * @param StreamFactoryInterface $streamFactory
-     * @param ViewFactory $templateName
+     * @param string $templateName
      * @param ViewFactory $viewFactory
+     * @param StreamFactoryInterface $streamFactory
      * @param array $templatesDirs
      */
     public function __construct(
